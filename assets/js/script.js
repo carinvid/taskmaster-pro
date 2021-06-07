@@ -76,15 +76,6 @@ $("#task-form-modal .btn-primary").click(function () {
   }
 });
 
-// // remove all tasks
-// $("#remove-tasks").on("click", function () {
-//   for (var key in tasks) {
-//     tasks[key].length = 0;
-//     $("#list-" + key).empty();
-//   }
-//   saveTasks();
-// });
-
 $(".list-group").on("click", "p", function () {
   var text = $(this).text().trim();
 
